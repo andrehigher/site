@@ -7,6 +7,7 @@ function showDiv(div){
   $('#mapTab').hide();
   $('#graphTab').hide();
   $('#mapTab').removeClass('hide');
+  $('#graphTab').removeClass('hide');
   $('#mapLi').removeClass('active');
   $('#graphLi').removeClass('active');
   $('#'+div+'Tab').show();
